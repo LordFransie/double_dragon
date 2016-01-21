@@ -1,0 +1,40 @@
+<html>
+<head>
+<script type="text/javascript">
+
+var names = ["double", "dragon", "donger", "diplodocus", "dildo", "dribble", "dunkin", "donuts", "dangus", "dick", "dilapasoraous"];
+var num1 = Math.floor(Math.random() * names.length);
+var num2 = Math.floor(Math.random() * names.length);
+
+document.getElementById('first').innerHTML = names[num1];
+
+document.getElementById('second').innerHTML = names[num2];
+</script>
+</head>
+<body>
+Team <span id="first"></span> <span id="second"></span>
+
+
+<script>
+function myFunction() {
+
+
+var names = ["double", "dragon", "donger", "diplodocus", "dildo", "dribble", "dunkin", "donuts", "dangus", "dick", "dilapasoraous"];
+var num1 = Math.floor(Math.random() * names.length);
+var num2 = Math.floor(Math.random() * names.length);
+
+document.getElementById('first').innerHTML = names[num1];
+
+document.getElementById('second').innerHTML = names[num2];
+
+}
+</script>
+
+<div>
+<button type="button" onclick="myFunction()">Team Whosie Whatsie</button>
+</div>
+
+
+
+</body>
+</html>
